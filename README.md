@@ -1,6 +1,6 @@
 # 📝 Intelligent Email Writer for Students
 
-**Cut Sula Fhatia Rahma**  (2208107010048)
+**Iwani Khairina**  (2208107010078)
 
 Proyek ini merupakan aplikasi berbasis Web yang memungkinkan mahasiswa membuat email secara otomatis dan profesional dengan bantuan teknologi Large Language Model (LLM) dari **Gemini API**.
 
@@ -86,5 +86,4 @@ GEMINI_API_KEY=your_api_key_here
 
 ## 📋 Hasil dan Tampilan Frontend
 
-![Screenshot](images/Screenshot-hasil-1.png) <br>
-![Screenshot](images/Screenshot-hasil-2.png)
+![Screenshot](images/Screenshot-hasil.png) <br>
