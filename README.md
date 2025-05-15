@@ -2,30 +2,33 @@
 
 **Iwani Khairina**  (2208107010078)
 
-Proyek ini merupakan aplikasi berbasis Web yang memungkinkan mahasiswa membuat email secara otomatis dan profesional dengan bantuan teknologi Large Language Model (LLM) dari **Gemini API**.
+Proyek ini merupakan aplikasi web yang dirancang untuk membantu mahasiswa dalam menyusun email secara otomatis dan profesional, dengan memanfaatkan teknologi Large Language Model (LLM) melalui Gemini API.
 
 ---
 
 ## 📦 Fitur Utama
 
-- Memilih kategori email: Akademik, Skripsi, Magang, dll.
-- Menentukan nada (tone) penulisan: formal, netral, atau santai.
-- Mendukung Bahasa Indonesia dan Inggris.
-- Mengisi poin-poin utama yang ingin disampaikan dalam email.
-- Menghasilkan email yang profesional, jelas, dan padat secara otomatis.
+1.Menyediakan pilihan kategori email seperti: Akademik, Skripsi, Magang, dan lainnya.
+
+2.Menentukan gaya bahasa: formal, netral, atau santai.
+
+3.Mendukung penulisan dalam Bahasa Indonesia dan Inggris.
+
+4.Pengguna dapat mengisi poin-poin penting yang ingin disampaikan.
+
+5.Menghasilkan email yang ringkas, jelas, dan profesional secara otomatis.
 
 ---
 
 ## 📁 Struktur Proyek
 
 ```
-intelligent\_email\_writer/
-├── .env                     # Berisi API Key Gemini
-├── app.py                  # Frontend dengan Streamlit
+intelligent_email_writer/
+├── .env                   # Menyimpan kunci API Gemini
+├── app.py                 # Antarmuka pengguna menggunakan Streamlit
 ├── backend/
-│   └── main.py             # Backend API menggunakan FastAPI
-└── requirements.txt        # Dependensi backend
-
+│   └── main.py            # API backend berbasis FastAPI
+└── requirements.txt       # Daftar dependensi Python
 ````
 
 ---
@@ -35,22 +38,23 @@ intelligent\_email\_writer/
 ### 1. Kloning repository
 
 ```bash
-git clone https://github.com/csulafr/UAS_Cut-Sula-Fhatia-Rahma_2208107010048.git
+git clone 
 cd UAS-Praktikum-Pembelajaran-Mesin
 ````
 
-### 2. Setup dan jalankan Backend (FastAPI)
-
+### 2. Menyiapkan dan Menjalankan Backend (FastAPI)
 ```bash
-# Buat dan aktifkan environment
+# Membuat virtual environment
 python3.10 -m venv env
-source env/bin/activate   # Linux/macOS
-env\Scripts\activate      # Windows
 
-# Install dependencies
+# Aktifkan environment
+source env/bin/activate   # Untuk Linux/macOS
+env\Scripts\activate      # Untuk Windows
+
+# Instalasi dependensi
 pip install -r requirements.txt
 
-# Jalankan server
+# Menjalankan server FastAPI
 uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
@@ -86,4 +90,4 @@ GEMINI_API_KEY=your_api_key_here
 
 ## 📋 Hasil dan Tampilan Frontend
 
-![Screenshot](images/Screenshot-hasil.png) <br>
+![Screenshot](images/Screenshot 2025-05-14 162915.png) <br>
