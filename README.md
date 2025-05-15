@@ -90,4 +90,4 @@ GEMINI_API_KEY=your_api_key_here
 
 ## 📋 Hasil dan Tampilan Frontend
 
-![Screenshot](images/Screenshot 2025-05-14 162915.png) <br>
+![Screenshot](images/Screenshot-output.png) <br>
